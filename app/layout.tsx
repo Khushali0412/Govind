@@ -9,6 +9,14 @@ export const metadata: Metadata = {
     template: '%s | Govind Remedies',
   },
   description: 'Leading pharmaceutical manufacturer providing high-quality solutions globally.',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+  },
 };
 
 export default function RootLayout({

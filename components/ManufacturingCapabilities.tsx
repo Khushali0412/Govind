@@ -60,8 +60,8 @@ export const ManufacturingCapabilities: React.FC = () => {
             <ShieldCheck className="w-3.5 h-3.5" />
             <span>Infrastructure</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy tracking-tight">
-            Precision at Every Stage
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+            Precision at Every <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Stage</span>
           </h2>
           <p className="mt-4 text-slate-500 text-base sm:text-lg">
             A disciplined six-stage manufacturing workflow ensuring consistent pharmaceutical quality from raw material receipt to finished product dispatch.

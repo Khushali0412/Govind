@@ -23,8 +23,8 @@ export const TrustStrip: React.FC = () => {
                 <ShieldCheck className="w-3.5 h-3.5" />
                 <span>Manufacturing You Can Trust</span>
               </div>
-              <h2 className="text-4xl sm:text-5xl font-extrabold text-brand-navy leading-tight">
-                Built Around Quality. <span className="text-brand-blue">Driven by Precision.</span>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+                Built Around Quality. <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Driven by Precision.</span>
               </h2>
               <p className="text-slate-500 text-lg leading-relaxed max-w-md">
                 From formulation development to finished pharmaceutical products, Govind Remedies focuses on consistency, quality and operational precision at every stage of manufacturing.

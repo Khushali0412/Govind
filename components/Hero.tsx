@@ -12,7 +12,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onExploreProducts, onDiscoverCapabilities }) => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center pt-32 pb-24 overflow-hidden bg-brand-soft-bg text-slate-800">
+    <section id="home" className="relative min-h-screen flex items-center pt-28 pb-20 lg:pt-24 lg:pb-16 xl:pt-24 xl:pb-16 2xl:pt-32 2xl:pb-24 overflow-hidden bg-brand-soft-bg text-slate-800">
 
       {/* IMAGE BACKGROUND */}
       <div
@@ -36,8 +36,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreProducts, onDiscoverCapabil
               <ShieldCheck className="w-3.5 h-3.5" />
               <span>Trusted Healthcare Manufacturing</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-brand-navy leading-[1.15]">
-              Advancing Healthcare Through <span className="text-brand-blue">Quality</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+              Advancing Healthcare Through <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Quality</span>
             </h1>
 
             {/* DESCRIPTION */}

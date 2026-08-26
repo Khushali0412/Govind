@@ -78,9 +78,9 @@ export const ContactSection: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-brand-navy tracking-tight leading-tight mb-6"
+              className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]"
             >
-              Connect With<br />Govind Remedies
+              Connect With<br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Govind Remedies</span>
             </motion.h2>
 
             {/* PARAGRAPH */}

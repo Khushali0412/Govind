@@ -36,8 +36,8 @@ export const ServiceHighlights: React.FC = () => {
             <ShieldCheck className="w-3.5 h-3.5" />
             <span>What We Do</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight">
-            Our Core Capabilities
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+            Our Core <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Capabilities</span>
           </h2>
         </div>
 

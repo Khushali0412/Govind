@@ -79,7 +79,7 @@ export const ProductShowcase: React.FC = () => {
               <ShieldCheck className="w-3.5 h-3.5" />
               <span>Our Product Portfolio</span>
             </div>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
               Explore Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Formulations</span>
             </h2>
             <p className="text-slate-500 text-lg sm:text-xl font-medium leading-relaxed max-w-2xl mx-auto">

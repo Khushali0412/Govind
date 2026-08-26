@@ -73,12 +73,12 @@ export const QualitySection: React.FC = () => {
             viewport={{ once: true }}
             className="mb-12 lg:mb-0 space-y-6 max-w-2xl mx-auto"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-blue text-white font-extrabold text-[10px] tracking-[0.2em] uppercase mb-6 shadow-sm">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-blue text-white font-extrabold text-[10px] tracking-[0.2em] uppercase shadow-sm">
               <ShieldCheck className="w-3.5 h-3.5" />
               <span>Inside Our Manufacturing</span>
             </div>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-brand-navy tracking-tight mb-6">
-              Engineered Into Every Drop
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+              Engineered Into Every <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Drop</span>
             </h2>
             <p className="text-slate-500 text-lg font-medium leading-relaxed">
               Our quality philosophy transcends compliance. It is an intrinsic discipline rooted in advanced process control and uncompromising validation.

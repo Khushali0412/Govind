@@ -55,8 +55,8 @@ export const BlogSection: React.FC = () => {
               <span>Knowledge & Updates</span>
             </div>
             {/* HEADING */}
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-navy tracking-tight leading-tight">
-              Read our informative insights from pharmaceutical experts
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+              Read our informative insights from pharmaceutical <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">experts</span>
             </h2>
           </motion.div>
 

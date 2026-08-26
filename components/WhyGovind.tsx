@@ -45,8 +45,8 @@ export const WhyGovind: React.FC = () => {
             <ShieldCheck className="w-3.5 h-3.5" />
             <span>Why Govind Remedies</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy tracking-tight">
-            A Manufacturing Partner Focused on What Matters
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+            A Manufacturing Partner Focused on What <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Matters</span>
           </h2>
           <p className="mt-4 text-slate-500 text-base sm:text-lg">
             Built on pharmaceutical precision, transparent process discipline, and a strong commitment to healthcare partners.

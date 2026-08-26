@@ -50,8 +50,8 @@ export const FAQSection: React.FC = () => {
               <ShieldCheck className="w-3.5 h-3.5" />
               <span>Frequently Asked Questions</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy tracking-tight mb-6">
-              Frequently Asked Questions
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+              Frequently Asked <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Questions</span>
             </h2>
             <p className="text-slate-500 text-base sm:text-lg max-w-2xl mx-auto">
               Find answers to common questions about our manufacturing capabilities, quality standards, and business operations.

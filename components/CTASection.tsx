@@ -34,8 +34,8 @@ export const CTASection: React.FC = () => {
           </div>
 
           {/* MAIN HEADING */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white tracking-tight leading-tight">
-            Looking for a Reliable Pharmaceutical Manufacturing Partner?
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tighter mb-6 leading-[1.1]">
+            Looking for a Reliable Pharmaceutical Manufacturing <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Partner?</span>
           </h2>
 
           {/* SUB-HEADING */}

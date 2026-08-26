@@ -96,8 +96,8 @@ export const TestimonialsSection: React.FC = () => {
                 <span>Testimonials</span>
               </div>
             </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-navy tracking-tight mb-6">
-              Partnerships Built on Reliability and Quality
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tighter mb-6 leading-[1.1]">
+              Partnerships Built on Reliability and <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-emerald">Quality</span>
             </h2>
             <p className="text-slate-500 text-base sm:text-lg">
               We believe strong pharmaceutical partnerships are built through transparency, consistency and a shared commitment to delivering quality healthcare products.

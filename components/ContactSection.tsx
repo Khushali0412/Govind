@@ -1,11 +1,11 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import { motion } from 'framer-motion';
 import { useSearchParams } from 'next/navigation';
 import { Mail, Phone, MapPin, Send, CheckCircle2, MessageSquare, ShieldCheck } from 'lucide-react';
 
-export const ContactSection: React.FC = () => {
+const ContactSectionContent: React.FC = () => {
   const searchParams = useSearchParams();
   const initialProductQuery = searchParams.get('product') || '';
 
@@ -274,3 +274,12 @@ export const ContactSection: React.FC = () => {
     </section>
   );
 };
+
+export const ContactSection: React.FC = () => {
+  return (
+    <Suspense fallback={null}>
+      <ContactSectionContent />
+    </Suspense>
+  );
+};
+

@@ -21,7 +21,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquire }) => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navItems = [
+interface NavItem {
+  name: string;
+  href: string;
+  hasDropdown?: boolean;
+  dropdownItems?: { name: string; href: string; hasSubmenu?: boolean }[];
+}
+
+  const navItems: NavItem[] = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
     { name: 'Services', href: '/services' },
